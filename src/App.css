@@ -28,6 +28,27 @@
   color: #61dafb;
 }
 
+.App .addTask{
+  width: 100vw;
+  height: 40vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color:purple;
+
+}
+.App .addTask input{
+  width: 25vw;
+  height: 3vw;
+  font-size: 2vw;
+}
+.App .addTask button {
+  width: 6vw;
+  height:3.2vw ;
+  font-size: 1vw;
+
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +57,7 @@
     transform: rotate(360deg);
   }
 }
+.App .task {
+  width:15vw;
+  margin: 0 42vw;
+  }
